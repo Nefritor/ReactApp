@@ -1,0 +1,104 @@
+body {
+    background-color: #f0f0f0;
+}
+
+input {
+    border: 1px solid #dedede;
+    width: 193px;
+    height: 15px;
+    padding: 5px 0 5px 5px;
+    border-radius: 5px;
+    color: #555;
+    font-size: 15px;
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+input:focus, input:hover {
+    box-shadow: inset 0 0 6px -3px #4e4e4e;
+    font-size: 13px;
+}
+
+#root {
+    width: 968px;
+    margin: 0 auto;
+    padding: 0 10px;
+    border-left: 1px solid #dedede;
+    border-right: 1px solid #dedede;
+    height: 100vh;
+    box-shadow: 0 0 7px -5px #555;
+    background-color: #fff;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.d-flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.container {
+    border: 1px solid #dedede;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #fff;
+    color: #555;
+}
+
+.w-200 {
+    width: 200px;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #dedede;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.button {
+    margin: 5px;
+    background-color: #737373;
+    color: #fff;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding: 5px;
+    transition: background-color .3s ease;
+    text-align: center;
+    flex: 1 1 auto;
+    user-select: none;
+    height: 23px;
+}
+.button:hover {
+    background-color: #636363;
+}
+
+.button:active {
+    background-color: #535353;
+}
+
+.players-info {
+    height: 150px;
+    overflow: auto;
+}
+
+.player {
+    transition: all 0.15s ease;
+}
+
+.player:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 5px 0px #e2e2e2;
+}
